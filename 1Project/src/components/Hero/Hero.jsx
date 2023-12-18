@@ -3,6 +3,7 @@ import React, { useState } from "react";
 const Hero = ({ Api }) => {
   // const [moreText, setmoreText] = useState("");
   const [readMore, setreadMore] = useState(false);
+  const [tours, setTours] = useState([]);
 
   return (
     <>
