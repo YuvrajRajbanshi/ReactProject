@@ -2,14 +2,13 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import Review from "./components/Review/Review";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <Review />
+      <h1 className=" text-red-400">Hello macha </h1>
     </>
   );
 }
